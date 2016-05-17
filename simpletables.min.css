@@ -1,0 +1,2 @@
+/*! simple-tables v0.1.1 | MIT License | github.com/platy11/simple-tables */.simpletable>tbody>tr:nth-child(odd){background-color:#d8d8d8}.simpletable>tbody>tr:nth-child(even){background-color:#fff}.simpletable>tbody td{border-left:2px solid #d8d8d8;overflow:visible;padding:8px}
+.simpletable>thead th:not(:first-child){border-left:2px solid #d8d8d8;padding:10px}
