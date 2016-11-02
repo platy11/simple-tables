@@ -14,6 +14,10 @@
   padding: 8px;
 }
 
+.simpletable.st-color > tbody td {
+  border-left: none;
+}
+
 .simpletable > thead th:not(:first-child) {
   border-left: 2px solid #d8d8d8;
   padding: 10px;
