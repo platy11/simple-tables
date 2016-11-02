@@ -1,4 +1,4 @@
-/*! simple-tables v0.1.1 | MIT License | github.com/platy11/simple-tables */
+/*! simple-tables v0.1.2 | MIT License | github.com/platy11/simple-tables */
 
 .simpletable > tbody > tr:nth-child(odd) {
   background-color: #d8d8d8;
@@ -17,4 +17,28 @@
 .simpletable > thead th:not(:first-child) {
   border-left: 2px solid #d8d8d8;
   padding: 10px;
+}
+
+.simpletable.st-red > tbody > tr:nth-child(odd) {
+  background-color: #ff8080;
+}
+
+.simpletable.st-orange > tbody > tr:nth-child(odd) {
+  background-color: #ffd790;
+}
+
+.simpletable.st-yellow > tbody > tr:nth-child(odd) {
+  background-color: #ffff80;
+}
+
+.simpletable.st-green > tbody > tr:nth-child(odd) {
+  background-color: #7beb7b;
+}
+
+.simpletable.st-blue > tbody > tr:nth-child(odd) {
+  background-color: #8080ff;
+}
+
+.simpletable.st-purple > tbody > tr:nth-child(odd) {
+  background-color: #ffA5ff;
 }
